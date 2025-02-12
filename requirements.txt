@@ -1,0 +1,12 @@
+
+
+LAB 2 requirements:
+    You must install the following dependencies:
+        ● speakeasy → For generating OTPs.
+        ● qrcode → To generate QR codes for users to scan.
+        ● express-session → To maintain user sessions.
+
+    Update User Schema
+    You need to modify your User model to include:
+        ● twoFASecret → Stores the 2FA secret key for each user.
+        ● is2FAEnabled → A boolean flag to track whether 2FA is activated for the user.
