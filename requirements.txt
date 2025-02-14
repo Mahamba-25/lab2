@@ -1,3 +1,6 @@
+npm init -y
+npm install express mongoose ejs dotenv bcryptjs express-session connect-flash passport passport-local method-override nodemailer
+
 
 
 LAB 2 requirements:
